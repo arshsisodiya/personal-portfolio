@@ -685,3 +685,14 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+.sm a{
+  color: #fff;
+  font-size: 22px;
+  padding-top: 20px;
+  margin: 0 10px;
+  transition: .2s linear;
+}
+
+.sm a:hover{
+  color: #48dbfb;
+}
