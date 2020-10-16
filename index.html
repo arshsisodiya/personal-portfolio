@@ -282,21 +282,25 @@ arshsisodiya@gmail.com</div>
 <div class="column right">
                     <div class="text">
 Message me</div>
-<form action="#">
+ <!-- here i am using formspree instead of PHP for getting messeges> -->
+ <form action="https://formspree.io/f/mzbkeoar" method="POST">
+
+
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" placeholder="Name" required>
                             </div>
 <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" name="_replyto" placeholder="Email" required>
                             </div>
 </div>
-<div class="field">
+<!--<div class="field">
                             <input type="text" placeholder="Subject" required>
-                        </div>
+                        </div>-->
+<!-- i commented the subject filed because its not working properly with my current backend service-->
 <div class="field textarea">
-                            <!-- Due to more textarea, I got an error so I changed the tag name of this textarea into changeit. -->
-                            <changeit cols="30" rows="10" placeholder="Message.." required></changeit>
+
+                        <textarea name="message" cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
 <div class="button">
                             <button type="submit">Send message</button>
