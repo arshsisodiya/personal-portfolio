@@ -98,7 +98,8 @@ section .title::after {
 }
 
 .navbar.sticky {
-  border-radius: 5px;
+  border-bottom-right-radius:5px;
+  border-bottom-left-radius:5px;
   padding: 12px 0;
   background: crimson;
 }
@@ -629,6 +630,9 @@ section .title::after {
 /* footer section styling */
 footer {
   background: #111;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
   padding: 15px 23px;
   color: #fff;
   text-align: center;
