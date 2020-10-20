@@ -572,7 +572,7 @@ section .title::after {
   width: 100%;
 }
 
-.contact .right form .name {
+.contact .right  form .name {
   margin-right: 10px;
 }
 
@@ -584,7 +584,7 @@ section .title::after {
 .contact .right form .textarea textarea {
   height: 100%;
   width: 100%;
-  border: 1px solid lightgrey;
+  border: 2px solid lightgrey;
   border-radius: 6px;
   outline: none;
   padding: 0 15px;
@@ -595,7 +595,7 @@ section .title::after {
 
 .contact .right form .field input:focus,
 .contact .right form .textarea textarea:focus {
-  border-color: #b3b3b3;
+  border-color: crimson;
 }
 
 .contact .right form .textarea textarea {
