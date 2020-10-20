@@ -915,3 +915,6 @@ footer span a:hover {
   transition: 1s;
   transition-delay: 0.75s;
 }
+a{
+  color: crimson;
+}
