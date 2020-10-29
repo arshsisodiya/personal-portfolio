@@ -98,8 +98,8 @@ section .title::after {
 }
 
 .navbar.sticky {
-  border-bottom-right-radius:5px;
-  border-bottom-left-radius:5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
   padding: 12px 0;
   background: crimson;
 }
@@ -211,6 +211,7 @@ section .title::after {
   font-weight: 600;
   margin-left: -3px;
 }
+
 .home .home-content .text-3 {
   font-size: 40px;
   margin: 5px 0;
@@ -571,7 +572,7 @@ section .title::after {
   width: 100%;
 }
 
-.contact .right  form .name {
+.contact .right form .name {
   margin-right: 10px;
 }
 
@@ -631,7 +632,6 @@ footer {
   background: #111;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-
   padding: 15px 23px;
   color: #fff;
   text-align: center;
@@ -725,7 +725,6 @@ footer span a:hover {
 
   .about .about-content .left {
     display: flex;
-
     justify-content: center;
     margin: 0 auto 60px;
   }
@@ -914,6 +913,9 @@ footer span a:hover {
   transition: 1s;
   transition-delay: 0.75s;
 }
-a{
+
+a1 {
   color: crimson;
 }
+
+a {}
